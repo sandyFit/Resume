@@ -76,19 +76,19 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.education.list]]
         degree = "Python Data Analyst"
         university = "NTTData Foundation"
-        dates = "2023"
+        dates = "March 2023 - July2023"
         [[params.education.list]]
         degree = "Excel Data analyst"
         university = "Correlation One"
-        dates = "2022"
+        dates = "October 2022"
         [[params.education.list]]
         degree = "Certified Tech Developer"
         university = "Digital House"
-        dates = "2023"
+        dates = "August 2023 - Present"
         [[params.education.list]]
         degree = "Web Developmentt"
-        university = "Correlation One"
-        dates = "2022"
+        university = "Universidad Tecnológica de Pereira"
+        dates = "May 2022 - November 2022"
 
 
 
@@ -164,7 +164,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.projects.list]]
-        title = "Profesional"      
+        title = "Professional"      
         [[params.projects.list.items]]          
         details = "Excellent verbal and written communication skills."
         [[params.projects.list.items]]
