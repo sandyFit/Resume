@@ -1,0 +1,215 @@
+# Page settings
+
+baseURL = "http://example.org/"
+languageCode = "en"
+title = "My Resume"
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+
+[params]
+    author = "CowboySmall"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+
+
+    [params.profile]
+        enable = true
+        name = "Sandra Ramos"
+        tagline = "Python Data Analyst"
+        avatar = ""
+
+
+
+    [params.contact]
+        enable = true
+        location = "Cali-colombia"
+
+        [[params.contact.list]]
+        icon = "fas fa-phone-square"
+        url = "tel:#"
+        text = "+57 3168438358"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "sandy07r@gmail.com.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "#"
+        text = "www.yourwebsite.com"
+
+
+
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+
+        [[params.skills.list.items]]
+        details = "Python"
+        [[params.skills.list.items]]
+        details = "PostgreSQL/MySQL/MongoDB"
+        [[params.skills.list.items]]
+        details = "Object-oriented design"
+        [[params.skills.list.items]]
+        details = "Tableau/Power Bi"
+        [[params.skills.list.items]]
+        details = "JavaScript"
+        [[params.skills.list.items]]
+        details = "Java"
+        [[params.skills.list.items]]
+        details = "Excel/Power Query/Dax"
+
+       
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "Python Data Analyst"
+        university = "NTTData Foundation"
+        dates = "2023"
+        [[params.education.list]]
+        degree = "Excel Data analyst"
+        university = "Correlation One"
+        dates = "2022"
+        [[params.education.list]]
+        degree = "Certified Tech Developer"
+        university = "Digital House"
+        dates = "2023"
+        [[params.education.list]]
+        degree = "Web Developmentt"
+        university = "Correlation One"
+        dates = "2022"
+
+
+
+
+    [params.awards]
+        enable = true
+
+        [[params.awards.list]]
+        name = "Award Lorem Ipsum"
+        body = "Microsoft lorem ipsum"
+        date = "2019"
+        [[params.awards.list]]
+        name = "Award Donec Sodales"
+        body = "Oracle Aenean"
+        date = "2017"
+
+
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Professional"
+        [[params.languages.list]]
+        name = "Spanish"
+        level = "Native"
+
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Climbing"
+        [[params.interests.list]]
+        name = "Snowboarding"
+        [[params.interests.list]]
+        name = "Photography"
+        [[params.interests.list]]
+        name = "Travelling"
+
+
+
+
+    [params.summary]
+        enable = true
+        text = "Highly motivated individual with a passion for technology and a talent for effective communication. Seeking a data analytics role to utilize academic training, enhance skills and drive professional growth. Committed to continuous learning and tackling new challenges to be a valuable asset to any team."
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Virtual Assistant"
+        dates = "2017 - Present"
+        company = "Meyer Business Solutions LLC"
+        details = "As a Virtual Assistant, I have honed my skills in various administrative and support tasks, catering to the needs of diverse clients in a remote work environment. My key responsibilities include:"
+        [[params.experience.list.items]]
+        details = "Translate complex documents with accuracy and fluidity across English and Spaniish."
+        [[params.experience.list.items]]
+        details = "Manage email correspondence, ensuring prompt and professional responses."
+        [[params.experience.list.items]]
+        details = "Coordinate virtual meetings and conferences efficiently."
+        [[params.experience.list.items]]
+        details = "Organize and maintain Excel databases with meticulous attention to detail."
+        [[params.experience.list.items]]
+        details = "Prepare and presente reports, distilling complex data into clear insights."
+
+
+
+    [params.projects]
+        enable = true
+
+        [[params.projects.list]]
+        title = "Profesional"      
+        [[params.projects.list.items]]          
+        details = "Excellent verbal and written communication skills."
+        [[params.projects.list.items]]
+        details = "Effective teamwork and collaboration capabilities."
+        [[params.projects.list.items]]
+        details = "Highly adaptable, quick learner, and comfortable with new technologies."
+        [[params.projects.list.items]]
+        details = "Strong time management and task prioritization abilities."
+
+
+    [params.information]
+        enable = true
+
+        [[params.information.list]]
+        title = ""
+        [[params.information.list.items]]
+        details = "Exploration and evaluation of new Artificial Intelligence tools with the aim of improving performance in tasks and projects."
+        [[params.information.list.items]]
+        details = "Applying mental frameworks to enhance analytic skills."
+        [[params.information.list.items]]
+        details = "User Interface (UI) and User Experience (UX) Design."
+        [[params.information.list.items]]
+        details = "Monitoring and analysis of progress metrics in my exercise and physical well-being routine."
+        
+
+      
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/sandyFit"
+        
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/sandra-ramos-2ba615186/"
+
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/username"
+
+
+
+
+
+
