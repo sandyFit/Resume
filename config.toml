@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "http://example.org/"
+baseURL = "https://sandyfit.github.io/Resume/"
 languageCode = "en"
 title = "My Resume"
 theme = "hugo-devresume-theme"
